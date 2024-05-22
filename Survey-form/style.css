@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(5, 131, 131), rgb(2, 41, 41));
+    background-repeat: no-repeat;
+    display: flex;
+    color: #eefeee;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 50%;
+    height: 95%;
+    padding: 10px 50px;
+    background-color: rgb(8, 93, 93);
+    border: rgb(0, 148, 131) 1px solid;
+    border-radius: 15px;
+}
+.container h1 {
+    margin: 10px 0;
+    font-size: 40px;
+}
+#name, #email, #number {
+    width: 80%;
+    padding: 6px;
+    display: block;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: rgb(162, 202, 189);
+    border: rgb(11, 248, 220) 1px solid;
+}
+#dropdown {
+    border-radius: 5px;
+    background-color: rgb(162, 202, 189);
+}
+#check {
+    background-color: rgb(162, 202, 189);
+}
+textarea {
+    width: 80%;
+    margin: 5px 0;
+    border: rgb(11, 248, 220) 1px solid;
+}
+select {
+    width: 80%;
+    padding: 8px 0;
+    border: rgb(11, 248, 220) 1px solid;
+    color: #7e7c7c;
+}
+button {
+    width: 80%;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    color: aquamarine;
+    background-color: rgb(2, 48, 35); 
+    border: rgb(4, 163, 144) 2px solid;
+    border-radius: 8px;
+}

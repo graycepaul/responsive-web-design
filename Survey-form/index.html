@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Survey form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Please take a moment to fill out this survey</p>
+      <form id="survey-form">
+        <label for="name" id="name-label">Full Name</label>
+        <input
+          type="text"
+          name="Grace Salawe"
+          id="name"
+          placeholder="please input your full name"
+          required
+        />
+        <label for="email" id="email-label">Email Address</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="please input your email address"
+          required
+        />
+        <label for="number" id="number-label">Phone Number</label>
+        <input
+          type="number"
+          name="phone number"
+          id="number"
+          min="8"
+          max="200"
+          placeholder="please input your number"
+        />
+        <label for="dropdown" id="membership">Membership type</label>
+        <br />
+        <select name="dropdown" id="dropdown">
+          <option value="drivers license">Free Trial</option>
+          <option value="national id">Premium</option>
+        </select>
+        <br />
+        <br />
+        <input type="radio" name="great" id="check" />
+        <label for="great">Great!</label>
+        <br />
+        <input type="radio" name="good" id="check" />
+        <label for="good">Good!</label>
+        <br />
+        <input type="radio" name="fair" id="check" />
+        <label for="fair">Fair</label>
+        <br />
+        <input type="radio" name="poor" id="check" />
+        <label for="poor">Poor</label>
+        <br />
+        <input type="checkbox" value="newsletter" />
+        <label for="newsletter">Subscribe to newsletter?</label>
+        <br />
+        <input type="checkbox" value="updates" />
+        <label for="updates">Get monthly updates?</label>
+        <br />
+        <br />
+        <p>More Info</p>
+        <textarea
+          name="textarea"
+          cols="20"
+          rows="5"
+          placeholder="please input more information about our services..."
+          id="dropdown"
+        ></textarea>
+        <br />
+        <button id="submit" id="dropdown">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
